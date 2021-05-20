@@ -61,7 +61,7 @@ namespace ScalingNamespace {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Scaling;component/scaling.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Scaling;V1.0.0.0;component/scaling.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Scaling.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
