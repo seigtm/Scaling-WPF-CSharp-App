@@ -1,0 +1,24 @@
+﻿<Window x:Class="ScalingNamespace.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ScalingNamespace"
+        mc:Ignorable="d"
+        Title="Scaling Application" Height="300" Width="500" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Arial" FontSize="14">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="8*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="8*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+
+        <Button x:Name="btn" Content="Изменить скейлинг" Click="Change_Click" Grid.Column="1" Grid.Row="1"/>
+    </Grid>
+</Window>
